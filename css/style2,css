@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(carta.jpg);
+    
+}
+
+form{
+    position: absolute;
+    padding: 20px;
+    width: 60%;
+  background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 30%;
+    top: 40px ;
+    z-index: 1;
+}
+input,  textarea{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    background-color: transparent;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .5);
+    margin-bottom: 30px;
+}
+.payment{
+    display: flex;
+    flex-direction: row;
+
+}
+button{
+    background-color: rgb(75, 172, 140);
+    width: 120px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: rgb(26, 106, 79);
+}
+
+.email, .data{
+    color: rgb(39, 121, 93);
+}
+
+input[type="checkbox"]{
+    width: 29px;
+}
+.label-checkbox {
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+}
